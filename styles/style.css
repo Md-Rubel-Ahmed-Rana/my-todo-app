@@ -117,8 +117,6 @@ hr{
     gap: 20px;
 }
 
-
-
 .todo-card{
     background-color: rgba(255, 255, 255, 0.74);
     padding: 30px 20px;
@@ -131,6 +129,13 @@ hr{
 .todo-card h4{
     font-size: 18px;
     margin: 0%;
+    padding: 0%;
+}
+
+.todo-card h6{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0%;
     padding: 0%;
 }
 .todo-card p{
@@ -163,9 +168,7 @@ hr{
 }
 
 
-
-/* responsive design  */
-
+ /* responsive design  */
 @media only screen and (max-width: 500px) {
     #todo-container {
         display: grid;
@@ -174,7 +177,7 @@ hr{
     }
 
     #form-section form {
-        width: 100%;
+        width: 90%;
         padding: 15px;
     }
 
